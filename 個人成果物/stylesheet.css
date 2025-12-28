@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(244, 125, 125, 0.9);
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header-logo {
+    width: 150px;
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.header-list {
+    float: right;
+    list-style: none;
+    display: block;
+}
+
+.header-list li:hover {
+    background-color: rgba(244, 125, 125, 1);
+}
